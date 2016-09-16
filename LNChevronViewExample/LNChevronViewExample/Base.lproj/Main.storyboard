@@ -38,71 +38,18 @@
                                     <action selector="_toggleButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cmo-Tz-bVF"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cHS-nU-CjB" customClass="LNChevronView">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="TTx-qs-98J"/>
-                                    <constraint firstAttribute="height" constant="140" id="bH4-yU-Add"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="chevronState">
-                                        <integer key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="width">
-                                        <real key="value" value="20.5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                        <color key="value" red="0.96078431369999995" green="0.20000000000000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="animationDuration">
-                                        <real key="value" value="0.5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fgv-yI-pAN" customClass="LNChevronView">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="qHa-4z-2F3"/>
-                                    <constraint firstAttribute="height" constant="160" id="r4i-4t-f3H"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="chevronState">
-                                        <integer key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="width">
-                                        <real key="value" value="11.5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="animationDuration">
-                                        <real key="value" value="0.10000000000000001"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apple default:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVe-dy-f57">
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="YvD-Ue-cpw" firstAttribute="top" secondItem="cHS-nU-CjB" secondAttribute="bottom" constant="22.5" id="2KD-bL-efh"/>
-                            <constraint firstItem="FVe-dy-f57" firstAttribute="centerY" secondItem="YvD-Ue-cpw" secondAttribute="centerY" id="JPw-4i-2ad"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XCN-cN-uxD" secondAttribute="bottom" constant="20" id="Odg-B7-Mk6"/>
-                            <constraint firstItem="Fgv-yI-pAN" firstAttribute="centerX" secondItem="YvD-Ue-cpw" secondAttribute="centerX" id="U4Y-rl-Qzy"/>
-                            <constraint firstItem="cHS-nU-CjB" firstAttribute="centerX" secondItem="YvD-Ue-cpw" secondAttribute="centerX" id="ZkV-I5-jdB"/>
                             <constraint firstItem="YvD-Ue-cpw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eII-hq-ahw"/>
                             <constraint firstItem="YvD-Ue-cpw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="frh-OZ-leM"/>
-                            <constraint firstItem="YvD-Ue-cpw" firstAttribute="leading" secondItem="FVe-dy-f57" secondAttribute="trailing" constant="8.5" id="gRq-Da-Zl5"/>
                             <constraint firstItem="XCN-cN-uxD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tno-Kc-1SC"/>
-                            <constraint firstItem="Fgv-yI-pAN" firstAttribute="top" secondItem="YvD-Ue-cpw" secondAttribute="bottom" constant="43.5" id="vk0-ER-Vjw"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="chevronView" destination="YvD-Ue-cpw" id="zeD-TB-iTu"/>
-                        <outletCollection property="chevronViews" destination="cHS-nU-CjB" collectionClass="NSMutableArray" id="5jQ-vj-4Cc"/>
                         <outletCollection property="chevronViews" destination="YvD-Ue-cpw" collectionClass="NSMutableArray" id="Opr-to-ler"/>
-                        <outletCollection property="chevronViews" destination="Fgv-yI-pAN" collectionClass="NSMutableArray" id="bMU-wT-n32"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
