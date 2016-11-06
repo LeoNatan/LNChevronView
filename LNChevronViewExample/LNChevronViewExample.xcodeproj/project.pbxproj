@@ -40,7 +40,6 @@
 		39974D291D8BF66500110310 = {
 			isa = PBXGroup;
 			children = (
-				39974D471D8BF67400110310 /* New Group */,
 				39974D341D8BF66500110310 /* LNChevronViewExample */,
 				39974D331D8BF66500110310 /* Products */,
 			);
@@ -67,13 +66,6 @@
 				39974D4B1D8C199600110310 /* LNChevronView.m */,
 			);
 			path = LNChevronViewExample;
-			sourceTree = "<group>";
-		};
-		39974D471D8BF67400110310 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
