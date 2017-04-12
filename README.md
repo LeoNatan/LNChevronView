@@ -4,19 +4,19 @@
 
 Customizable chevron view reimplementation of Apple's, as seen in Springboard / Apple Music. Can be customized directly from Xcode.
 
-##Adding to Your Project
+## Adding to Your Project
 
-###Carthage
+### Carthage
 
 Add the following to your Cartfile:
 
 ```github "LeoNatan/LNChevronView"```
 
-###Manual
+### Manual
 
 Drag `LNChevronView.h` and `LNChevronView.m` to your project.
 
-##Using
+## Using
 
 Import the header file:
 
